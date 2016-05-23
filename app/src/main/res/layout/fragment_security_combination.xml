@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+tools:showIn="@layout/activity_security_combination"
+tools:context=".SecurityCombinationActivityFragment">
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:id="@+id/header_layout"
+    android:layout_height="wrap_content"
+    android:padding="20px"
+    android:background="@color/material_blue_grey_800">
+
+    <TextView
+        android:textColor="@color/background_floating_material_light"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Security System" />
+</RelativeLayout>
+    <Button
+        android:layout_margin="30px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectColorCode"
+        android:background="@color/background_floating_material_light"
+        android:layout_below="@+id/header_layout"
+        android:text="Select Color Codes"/>
+<RelativeLayout
+    android:padding="20dip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/centerlayout"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/selectColorCode">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:background="#0000FF"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10px"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:id="@+id/image_1"/>
+            <ImageView
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:id="@+id/image_2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10px"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:id="@+id/image_3"/>
+            <ImageView
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:id="@+id/image_4"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10px"
+            android:paddingRight="10px"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:id="@+id/image_5"/>
+            <ImageView
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:id="@+id/image_6"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10px"
+            android:paddingRight="10px"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:id="@+id/image_7"/>
+            <ImageView
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:id="@+id/image_8"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:paddingLeft="10px"
+            android:background="#228B22"/>
+    </LinearLayout>
+</RelativeLayout>
+
+</RelativeLayout>

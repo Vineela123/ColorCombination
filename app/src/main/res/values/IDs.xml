@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="IDSArray">
+    <item type="id" name="ID1">@id/image_1</item>
+    <item type="id" name="ID2">@id/image_2</item>
+    <item type="id" name="ID3">@id/image_3</item>
+    <item type="id" name="ID4">@id/image_4</item>
+    <item type="id" name="ID5">@id/image_5</item>
+    <item type="id" name="ID6">@id/image_6</item>
+    <item type="id" name="ID7">@id/image_7</item>
+    <item type="id" name="ID8">@id/image_8</item>
+</integer-array>
+</resources>
