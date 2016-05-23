@@ -54,5 +54,14 @@ public class CombinationJunitTest {
         randomCombination.add("red black");
         assertThat(ValidateCombinationTest(randomCombination), is(true));
     }
- 
+    @Test
+    public void CorrectCombination(){
+        ArrayList<String> randomCombination=new ArrayList<>();
+        randomCombination.add("blue yellow");
+        randomCombination.add("yellow red");
+        randomCombination.add("red black");
+        randomCombination.add("black green");
+        ValidateCombinationTest(randomCombination);
+        assertThat(ValidateCombinationTest(randomCombination), is(true));
+    }
 }
